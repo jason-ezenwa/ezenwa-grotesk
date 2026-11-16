@@ -13,6 +13,7 @@ CORNER = 28              # rounded corners with a shorter chord become sharp
 CLEARANCE = 12           # gap opened between touching pairs
 
 # Letters, as shares of the o's width or of the letter's own stem
+F_TOP = 665              # f: the hook rises to here, above the ascender, to open the space under it
 F_JOIN = 0.05            # f: the stem starts curving this far from x-height to the top
 F_REACH = 0.5            # f: the hook reaches this many stems past the crossbar
 F_MIN_WIDTH = 0.59       # f: the hook spans at least this share of the o
@@ -23,6 +24,8 @@ T_REACH = 0.25           # t: the foot reaches this many stems past the crossbar
 T_MIN_WIDTH = 0.53       # t: the foot spans at least this share of the o
 T_TERMINAL = 0.3         # t: the foot is cut this far from the join to the bottom
 T_DEPTH = 0.42           # t: the foot is cut at least this far up into its counter
+A_WIDTH = 1.0            # a: as wide as the o
+G_BOWL = 1.2             # g: the upper bowl's counter is at most this much wider than tall
 MIN_COUNTER = 0.4        # f and t: the hook's counter is at least this many stems wide and tall
 
 # Glyph groups
@@ -45,7 +48,7 @@ LINE_ASCENT, LINE_DESCENT = 960, -220
 WIN_ASCENT, WIN_DESCENT = 1100, 420   # one clipping box for the whole family
 
 # Names
-VERSION = '1.000'
+VERSION = '1.001'
 DESIGNER = 'Chukwuemelie Ezenwa'
 COPYRIGHT = ('Copyright 2020 The Archivo Project Authors '
              '(https://github.com/Omnibus-Type/Archivo). '

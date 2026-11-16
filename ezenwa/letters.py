@@ -3,11 +3,12 @@ are slanted back first) and slanted again afterwards."""
 import math
 import unicodedata
 
-from pathops import PathOp, op
+from fontTools.pens.recordingPen import RecordingPen
+from pathops import Path, PathOp, op
 
 from .measure import bounds
 from .outlines import BIG, box, drop_specks, path_of, put_glyph, transform_path
-from .spec import (F_DEPTH, F_JOIN, F_MIN_WIDTH, F_REACH, F_TERMINAL, MIN_COUNTER, T_DEPTH,
+from .spec import (A_WIDTH, G_BOWL, F_DEPTH, F_TOP, F_JOIN, F_MIN_WIDTH, F_REACH, F_TERMINAL, MIN_COUNTER, T_DEPTH,
                    T_JOIN, T_MIN_WIDTH, T_REACH, T_TERMINAL)
 
 
@@ -52,7 +53,7 @@ def _hook(sx0, stem_w, x1, stroke):
 
 def build_f(f, o, xh):
     """f with a hook cut from the o, ending in a near-horizontal cut."""
-    top = f.bounds[3]
+    top = F_TOP
     sx0, sx1 = _stem(f, xh + 15, xh + 45)
     bar_right = _stem(f, xh - 25, xh - 5)[1]
     stem_w = sx1 - sx0
@@ -93,8 +94,9 @@ def build_t(t, o, xh):
     return op(op(body, foot, PathOp.UNION), bar, PathOp.UNION)
 
 
-def _rebuild_accented(font, cmap, old, new):
-    """Swaps each accented form's old base letter for the new one."""
+def _rebuild_accented(font, cmap, old, new, mark_shift=None):
+    """Swaps each accented form's old base letter for the new one, moving its
+    marks by mark_shift[letter] units if given."""
     rev = {n: cp for cp, n in cmap.items()}
     rebuilt_names = {cmap[ord(ch)] for ch in old}
     for name in font.getGlyphOrder():
@@ -111,6 +113,9 @@ def _rebuild_accented(font, cmap, old, new):
         if abs(op(glyph, old[base], PathOp.INTERSECTION).area) < 0.97 * abs(old[base].area):
             continue  # the base letter sits elsewhere in this glyph
         marks = drop_specks(op(glyph, old[base], PathOp.DIFFERENCE))
+        shift = (mark_shift or {}).get(base, 0)
+        if shift:
+            marks = transform_path(marks, (1, 0, 0, 1, shift, 0))
         result = op(marks, new[base], PathOp.UNION)
         result.simplify(fix_winding=True, keep_starting_points=False)
         put_glyph(font, name, result)
@@ -142,3 +147,86 @@ def letter_edits(font, italic):
 
     _rebuild_accented(font, cmap, old, {ch: path_of(font, name[ch]) for ch in edited})
     _drop_f_ligatures(font, name['f'])
+
+
+def _runs(path, y):
+    """Ink runs (x0, x1) along a horizontal line at height y, left to right."""
+    cut = op(path, box(-BIG, y - 1, BIG, y + 1), PathOp.INTERSECTION)
+    return sorted((c.bounds[0], c.bounds[2]) for c in cut.contours)
+
+
+def _squeeze(path, x0, x1, delta, weight=lambda y: 1):
+    """Moves everything right of x1 left by delta and compresses the space
+    between x0 and x1 to absorb it, so the strokes either side keep their
+    thickness. weight(y) fades the effect by height."""
+    k = (x1 - x0 - delta) / (x1 - x0)
+
+    def move(pt):
+        x, y = pt
+        nx = x if x <= x0 else x0 + (x - x0) * k if x < x1 else x - delta
+        return (x + weight(y) * (nx - x), y)
+
+    rec = RecordingPen()
+    path.draw(rec)
+    out = Path()
+    pen = out.getPen()
+    for op_, pts in rec.value:
+        getattr(pen, op_)(*[p if p is None else move(p) for p in pts])
+    return out
+
+
+def narrow_a(a, o, xh):
+    """a as wide as A_WIDTH of the o, narrowed between its bowl's left
+    stroke and its stem. Returns the new a and how much narrower it is."""
+    delta = (a.bounds[2] - a.bounds[0]) - A_WIDTH * (o.bounds[2] - o.bounds[0])
+    if delta <= 0:
+        return a, 0
+    runs = _runs(a, xh * 0.25)
+    return _squeeze(a, runs[0][1], runs[-1][0], delta), delta
+
+
+def narrow_g(g, xh):
+    """g whose upper bowl is narrowed inside its strokes until its counter is
+    at most G_BOWL times wider than tall. The tail and lower loop stay put."""
+    holes = [c for c in g.contours if any(
+        o is not c and o.bounds[0] < c.bounds[0] and o.bounds[2] > c.bounds[2]
+        and o.bounds[1] < c.bounds[1] and o.bounds[3] > c.bounds[3] for o in g.contours)]
+    bowl = max((c.bounds for c in holes), key=lambda b: b[3])
+    width, height = bowl[2] - bowl[0], bowl[3] - bowl[1]
+    delta = width - G_BOWL * height
+    if delta <= 0:
+        return g, 0
+    runs = _runs(g, (bowl[1] + bowl[3]) / 2)
+    weight = lambda y: min(1, max(0, y / bowl[1]))
+    return _squeeze(g, runs[0][1], runs[-1][0], delta, weight), delta
+
+
+def narrow_letters(font, italic):
+    """Narrows a and g, after widths and spacing are fitted so the narrowing
+    doesn't shift their classes. Each keeps its side bearings, and the marks
+    on their accented forms move to stay centred."""
+    cmap = font.getBestCmap()
+    name = {ch: cmap[ord(ch)] for ch in 'agox'}
+    old = {ch: path_of(font, name[ch]) for ch in 'ag'}
+    tan = math.tan(math.radians(-font['post'].italicAngle)) if italic else 0
+    upright, slanted = (1, 0, -tan, 1, 0, 0), (1, 0, tan, 1, 0, 0)
+    get = lambda ch: transform_path(path_of(font, name[ch]), upright)
+    o, xh = get('o'), bounds(font.getGlyphSet(), name['x'])[3]
+    new_a, delta_a = narrow_a(get('a'), o, xh)
+    new_g, delta_g = narrow_g(get('g'), xh)
+    deltas = {'a': delta_a, 'g': delta_g}
+    hmtx = font['hmtx']
+    rev = {n: cp for cp, n in cmap.items()}
+    base_adv = {ch: hmtx[name[ch]][0] for ch in 'ag'}
+    for ch, path in (('a', new_a), ('g', new_g)):
+        put_glyph(font, name[ch], transform_path(path, slanted))
+    _rebuild_accented(font, cmap, old, {ch: path_of(font, name[ch]) for ch in 'ag'},
+                      {ch: -d / 2 for ch, d in deltas.items()})
+    for gname in font.getGlyphOrder():
+        cp = rev.get(gname) or rev.get(gname.split('.')[0])
+        if cp is None:
+            continue
+        ch = unicodedata.normalize('NFD', chr(cp))[0]
+        if ch in deltas and deltas[ch] and hmtx[gname][0] == base_adv[ch]:
+            hmtx[gname] = (round(base_adv[ch] - deltas[ch]), hmtx[gname][1])
+    return {ch: round(d, 1) for ch, d in deltas.items()}

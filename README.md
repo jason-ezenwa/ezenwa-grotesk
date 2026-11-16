@@ -19,8 +19,9 @@ by Omnibus-Type.
 - `fit.py`: the build, with its parts in `ezenwa/`: `targets.json` holds the
   measured targets and `spec.py` the letter and fitting constants.
 - `check.py`: reports any character pair that touches.
-- `test.py`: checks every style against `SPEC.md` (metrics, stems, figures,
-  features, coverage, collisions, names) and runs fontbakery.
+- `test.py`: checks every style against `SPEC.md` (metrics, stems, letter
+  proportions, figures, features, coverage, collisions, names) and runs
+  fontbakery.
 - `tools/font-book.js` and `tools/feature-sheet.js`: render the font book and
   a sheet of every OpenType feature off and on.
 - `docs/fontbakery-report.md`: the latest fontbakery report.
@@ -33,6 +34,12 @@ by Omnibus-Type.
 body {
   font-family: 'Ezenwa Grotesk', system-ui, sans-serif;
 }
+```
+
+Or load a release from jsDelivr, pinned to its tag:
+
+```html
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/jason-ezenwa/ezenwa-grotesk@v1.001/fonts/ezenwa-grotesk.css">
 ```
 
 ## Rebuild

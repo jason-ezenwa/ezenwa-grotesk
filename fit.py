@@ -13,7 +13,7 @@ from ezenwa.collisions import match_open_gaps, settle_collisions
 from ezenwa.finish import finish, postscript_name, set_names
 from ezenwa.fitting import (ITALIC, ROMAN, base_font, em_scale, fit_spacing, fit_widths,
                          remap_vertical, solve_location, solve_roundness)
-from ezenwa.letters import letter_edits
+from ezenwa.letters import letter_edits, narrow_letters
 from ezenwa.measure import fullness, measure
 from ezenwa.outlines import round_curves
 from ezenwa.spec import GROUPS, ROUNDNESS, STYLES, SUBCLASS
@@ -65,6 +65,7 @@ def build(style, weight, italic, k, roman=None):
     report = {'style': style, 'italic': italic, 'locs': locs, 'roundness': tension}
     report['width'] = fit_widths(font, sub, variants, ref, roman)
     report['space'] = fit_spacing(font, sub, ref, roman)
+    report['narrowed'] = narrow_letters(font, italic)
 
     os.makedirs(OUT, exist_ok=True)
     path = os.path.join(OUT, postscript_name(style, italic))

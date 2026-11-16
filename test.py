@@ -24,6 +24,9 @@ FONTS = os.path.join(HERE, 'fonts')
 # Targets copied from SPEC.md on purpose, so the build cannot pass by
 # changing its own constants. Values in a 1000-unit em.
 CAP, ASC, DESC = 640, 640, -170
+F_TOP = 665          # the f's hook rises above the ascender
+A_WIDTH = 1.0        # the a is as wide as the o
+G_BOWL = 1.2         # the g's upper counter is at most this much wider than tall
 X_HEIGHT = {'Light': 467, 'Regular': 470, 'Medium': 474, 'Semibold': 478, 'Bold': 480}
 LC_STEM = {'Light': 63, 'Regular': 85, 'Medium': 123, 'Semibold': 148, 'Bold': 166}
 UC_STEM = {'Light': 65, 'Regular': 89, 'Medium': 128, 'Semibold': 156, 'Bold': 174}
@@ -58,6 +61,19 @@ def stem_at(gs, name, y):
     return max((c.bounds[2] - c.bounds[0]) for c in cut.contours)
 
 
+def g_bowl(gs, name):
+    """Width over height of the g's upper counter: the inner contour that
+    reaches highest."""
+    p = Path()
+    gs[name].draw(p.getPen())
+    p.simplify()
+    boxes = [c.bounds for c in p.contours]
+    inside = lambda a, b: a[0] > b[0] and a[1] > b[1] and a[2] < b[2] and a[3] < b[3]
+    holes = [b for b in boxes if any(inside(b, c) for c in boxes if c is not b)]
+    top = max(holes, key=lambda b: b[3])
+    return (top[2] - top[0]) / (top[3] - top[1])
+
+
 def within(value, target, tolerance):
     return abs(value - target) <= abs(target) * tolerance
 
@@ -89,6 +105,16 @@ def check_font(path):
         lc_w, uc_w = lc[2] - lc[0], uc[2] - uc[0]
         record('lowercase stem', within(lc_w, LC_STEM[weight], STEM_TOLERANCE), f'{lc_w:.0f} (target {LC_STEM[weight]})')
         record('capital stem', within(uc_w, UC_STEM[weight], STEM_TOLERANCE), f'{uc_w:.0f} (target {UC_STEM[weight]})')
+
+    f_top = bounds(gs, g('f'))[3]
+    record('f top', within(f_top, F_TOP, METRIC_TOLERANCE), f'{f_top:.0f} (target {F_TOP})')
+
+    if not italic:
+        a, o = bounds(gs, g('a')), bounds(gs, g('o'))
+        ratio = (a[2] - a[0]) / (o[2] - o[0])
+        record('a as wide as o', within(ratio, A_WIDTH, METRIC_TOLERANCE), f'{ratio:.3f} of the o')
+        bowl = g_bowl(gs, g('g'))
+        record('g bowl', bowl <= G_BOWL + 0.01, f'counter {bowl:.2f} wide per tall (at most {G_BOWL})')
 
     tabular = [n for n in font.getGlyphOrder() if n.endswith('.tf')]
     widths = {font['hmtx'][n][0] for n in tabular}

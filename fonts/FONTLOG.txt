@@ -25,6 +25,13 @@ Changes, all made by fit.py:
 - Line metrics, style table, version and Windows bounds set so fontbakery
   reports no failures.
 
+Versions:
+- 1.001: the a narrowed to the width of the o, and the g's upper bowl
+  narrowed until its counter is at most 1.2 times wider than tall, both
+  inside their strokes; accented forms follow. The f's hook rises to 665,
+  above the ascender, to open the space under it.
+- 1.000: first release.
+
 No outlines, kerning or per-glyph widths were copied from any other font.
 Only aggregate measurements were used as targets: heights, stem weight, and
 class mean widths and spacing.

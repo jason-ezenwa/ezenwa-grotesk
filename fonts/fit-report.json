@@ -93,6 +93,10 @@
         ]
       ]
     },
+    "narrowed": {
+      "a": 27.0,
+      "g": 40.8
+    },
     "open_gaps": {
       "f": -43,
       "t": 28
@@ -124,7 +128,7 @@
       ],
       "width_delta_pct": {
         "lc-straight": 0.1,
-        "lc-round": -0.0,
+        "lc-round": -0.8,
         "lc-diagonal": -0.0,
         "lc-open": 0.8,
         "uc-straight": -0.0,
@@ -135,7 +139,7 @@
       },
       "space_delta_units": {
         "lc-straight": 0,
-        "lc-round": 0,
+        "lc-round": -3,
         "lc-diagonal": 0,
         "lc-open": -7,
         "uc-straight": 0,
@@ -145,7 +149,7 @@
         "figures": 0
       }
     },
-    "opened_pairs": 56
+    "opened_pairs": 60
   },
   {
     "style": "Light",
@@ -241,6 +245,10 @@
         ]
       ]
     },
+    "narrowed": {
+      "a": 41.0,
+      "g": 0
+    },
     "open_gaps": {
       "f": -23,
       "t": 35
@@ -263,7 +271,7 @@
         -170
       ],
       "ink": [
-        0.346,
+        0.347,
         0.353
       ],
       "capstem": [
@@ -272,9 +280,9 @@
       ],
       "width_delta_pct": {
         "lc-straight": -6.8,
-        "lc-round": -3.5,
+        "lc-round": -4.4,
         "lc-diagonal": -1.9,
-        "lc-open": 12.6,
+        "lc-open": 12.7,
         "uc-straight": -5.8,
         "uc-round": 2.2,
         "uc-diagonal": -3.4,
@@ -285,7 +293,7 @@
         "lc-straight": 41,
         "lc-round": 16,
         "lc-diagonal": 18,
-        "lc-open": -35,
+        "lc-open": -36,
         "uc-straight": 56,
         "uc-round": -4,
         "uc-diagonal": 15,
@@ -293,7 +301,7 @@
         "figures": 19
       }
     },
-    "opened_pairs": 55
+    "opened_pairs": 53
   },
   {
     "style": "Regular",
@@ -388,6 +396,10 @@
           0
         ]
       ]
+    },
+    "narrowed": {
+      "a": 18.0,
+      "g": 28.8
     },
     "open_gaps": {
       "f": -27,
@@ -420,7 +432,7 @@
       ],
       "width_delta_pct": {
         "lc-straight": 0.0,
-        "lc-round": 0.1,
+        "lc-round": -0.5,
         "lc-diagonal": -0.0,
         "lc-open": -0.0,
         "uc-straight": -0.0,
@@ -431,7 +443,7 @@
       },
       "space_delta_units": {
         "lc-straight": 0,
-        "lc-round": 0,
+        "lc-round": -3,
         "lc-diagonal": 0,
         "lc-open": -3,
         "uc-straight": 0,
@@ -441,7 +453,7 @@
         "figures": 0
       }
     },
-    "opened_pairs": 47
+    "opened_pairs": 55
   },
   {
     "style": "Regular",
@@ -537,6 +549,10 @@
         ]
       ]
     },
+    "narrowed": {
+      "a": 37.0,
+      "g": 0
+    },
     "open_gaps": {
       "f": -14,
       "t": 31
@@ -559,7 +575,7 @@
         -170
       ],
       "ink": [
-        0.444,
+        0.445,
         0.449
       ],
       "capstem": [
@@ -568,9 +584,9 @@
       ],
       "width_delta_pct": {
         "lc-straight": -6.3,
-        "lc-round": -2.9,
+        "lc-round": -3.6,
         "lc-diagonal": -1.8,
-        "lc-open": 12.2,
+        "lc-open": 12.5,
         "uc-straight": -5.7,
         "uc-round": 2.2,
         "uc-diagonal": -3.0,
@@ -581,7 +597,7 @@
         "lc-straight": 43,
         "lc-round": 15,
         "lc-diagonal": 18,
-        "lc-open": -37,
+        "lc-open": -38,
         "uc-straight": 56,
         "uc-round": -5,
         "uc-diagonal": 15,
@@ -589,7 +605,7 @@
         "figures": 21
       }
     },
-    "opened_pairs": 42
+    "opened_pairs": 41
   },
   {
     "style": "Medium",
@@ -613,7 +629,7 @@
       "lc-straight": 1.0205,
       "lc-round": 0.9803,
       "lc-diagonal": 0.97,
-      "lc-open": 1.0133,
+      "lc-open": 1.0162,
       "uc-straight": 0.9937,
       "uc-round": 1.0024,
       "uc-diagonal": 0.9986,
@@ -646,7 +662,7 @@
         1,
         [
           -10.4,
-          20.4
+          19.4
         ]
       ],
       "uc-straight": [
@@ -685,9 +701,13 @@
         ]
       ]
     },
+    "narrowed": {
+      "a": 6.0,
+      "g": 11.4
+    },
     "open_gaps": {
-      "f": -10,
-      "t": 21
+      "f": -9,
+      "t": 22
     },
     "check": {
       "cap": [
@@ -707,7 +727,7 @@
         -170
       ],
       "ink": [
-        0.589,
+        0.59,
         0.595
       ],
       "capstem": [
@@ -716,7 +736,7 @@
       ],
       "width_delta_pct": {
         "lc-straight": 0.1,
-        "lc-round": 0.0,
+        "lc-round": -0.1,
         "lc-diagonal": 0.2,
         "lc-open": 0.1,
         "uc-straight": -0.1,
@@ -727,7 +747,7 @@
       },
       "space_delta_units": {
         "lc-straight": 0,
-        "lc-round": 0,
+        "lc-round": -1,
         "lc-diagonal": 0,
         "lc-open": 6,
         "uc-straight": 0,
@@ -737,7 +757,7 @@
         "figures": 0
       }
     },
-    "opened_pairs": 47
+    "opened_pairs": 46
   },
   {
     "style": "Medium",
@@ -761,7 +781,7 @@
       "lc-straight": 1.0205,
       "lc-round": 0.9803,
       "lc-diagonal": 0.97,
-      "lc-open": 1.0133,
+      "lc-open": 1.0162,
       "uc-straight": 0.9937,
       "uc-round": 1.0024,
       "uc-diagonal": 0.9986,
@@ -794,7 +814,7 @@
         1,
         [
           -10.4,
-          20.4
+          19.4
         ]
       ],
       "uc-straight": [
@@ -833,9 +853,13 @@
         ]
       ]
     },
+    "narrowed": {
+      "a": 32.1,
+      "g": 0
+    },
     "open_gaps": {
       "f": 8,
-      "t": 33
+      "t": 34
     },
     "check": {
       "cap": [
@@ -855,7 +879,7 @@
         -170
       ],
       "ink": [
-        0.576,
+        0.577,
         0.589
       ],
       "capstem": [
@@ -864,9 +888,9 @@
       ],
       "width_delta_pct": {
         "lc-straight": -5.5,
-        "lc-round": -2.3,
+        "lc-round": -2.9,
         "lc-diagonal": -1.5,
-        "lc-open": 11.2,
+        "lc-open": 11.6,
         "uc-straight": -5.4,
         "uc-round": 2.1,
         "uc-diagonal": -2.3,
@@ -877,7 +901,7 @@
         "lc-straight": 48,
         "lc-round": 17,
         "lc-diagonal": 16,
-        "lc-open": -23,
+        "lc-open": -24,
         "uc-straight": 56,
         "uc-round": -5,
         "uc-diagonal": 21,
@@ -885,7 +909,7 @@
         "figures": 24
       }
     },
-    "opened_pairs": 29
+    "opened_pairs": 24
   },
   {
     "style": "Semibold",
@@ -909,7 +933,7 @@
       "lc-straight": 1.0255,
       "lc-round": 0.9798,
       "lc-diagonal": 0.97,
-      "lc-open": 0.9852,
+      "lc-open": 0.9865,
       "uc-straight": 0.9899,
       "uc-round": 1.0051,
       "uc-diagonal": 1.0056,
@@ -981,9 +1005,13 @@
         ]
       ]
     },
+    "narrowed": {
+      "a": 15.0,
+      "g": 0
+    },
     "open_gaps": {
       "f": -13,
-      "t": 37
+      "t": 38
     },
     "check": {
       "cap": [
@@ -1012,9 +1040,9 @@
       ],
       "width_delta_pct": {
         "lc-straight": -0.2,
-        "lc-round": 0.0,
+        "lc-round": -0.3,
         "lc-diagonal": 0.2,
-        "lc-open": -0.1,
+        "lc-open": 0.0,
         "uc-straight": 0.0,
         "uc-round": 0.1,
         "uc-diagonal": 0.0,
@@ -1025,7 +1053,7 @@
         "lc-straight": 0,
         "lc-round": 0,
         "lc-diagonal": 0,
-        "lc-open": 12,
+        "lc-open": 13,
         "uc-straight": 0,
         "uc-round": 0,
         "uc-diagonal": 0,
@@ -1033,7 +1061,7 @@
         "figures": 0
       }
     },
-    "opened_pairs": 64
+    "opened_pairs": 63
   },
   {
     "style": "Semibold",
@@ -1057,7 +1085,7 @@
       "lc-straight": 1.0255,
       "lc-round": 0.9798,
       "lc-diagonal": 0.97,
-      "lc-open": 0.9852,
+      "lc-open": 0.9865,
       "uc-straight": 0.9899,
       "uc-round": 1.0051,
       "uc-diagonal": 1.0056,
@@ -1129,9 +1157,13 @@
         ]
       ]
     },
+    "narrowed": {
+      "a": 29.3,
+      "g": 0
+    },
     "open_gaps": {
-      "f": 5,
-      "t": 40
+      "f": 4,
+      "t": 41
     },
     "check": {
       "cap": [
@@ -1160,9 +1192,9 @@
       ],
       "width_delta_pct": {
         "lc-straight": -5.1,
-        "lc-round": -2.3,
+        "lc-round": -2.8,
         "lc-diagonal": -1.2,
-        "lc-open": 9.4,
+        "lc-open": 9.6,
         "uc-straight": -5.4,
         "uc-round": 2.0,
         "uc-diagonal": -2.2,
@@ -1181,7 +1213,7 @@
         "figures": 26
       }
     },
-    "opened_pairs": 41
+    "opened_pairs": 39
   },
   {
     "style": "Bold",
@@ -1276,6 +1308,10 @@
           0
         ]
       ]
+    },
+    "narrowed": {
+      "a": 25.0,
+      "g": 0
     },
     "open_gaps": {
       "f": -23,
@@ -1308,7 +1344,7 @@
       ],
       "width_delta_pct": {
         "lc-straight": -0.0,
-        "lc-round": 0.0,
+        "lc-round": -0.5,
         "lc-diagonal": 0.2,
         "lc-open": 3.4,
         "uc-straight": 0.0,
@@ -1329,7 +1365,7 @@
         "figures": 0
       }
     },
-    "opened_pairs": 80
+    "opened_pairs": 79
   },
   {
     "style": "Bold",
@@ -1425,6 +1461,10 @@
         ]
       ]
     },
+    "narrowed": {
+      "a": 27.1,
+      "g": 0
+    },
     "open_gaps": {
       "f": -1,
       "t": 40
@@ -1447,7 +1487,7 @@
         -170
       ],
       "ink": [
-        0.685,
+        0.686,
         0.717
       ],
       "capstem": [
@@ -1456,9 +1496,9 @@
       ],
       "width_delta_pct": {
         "lc-straight": -4.9,
-        "lc-round": -2.3,
+        "lc-round": -2.8,
         "lc-diagonal": -1.1,
-        "lc-open": 11.7,
+        "lc-open": 12.0,
         "uc-straight": -5.3,
         "uc-round": 2.0,
         "uc-diagonal": -2.1,
@@ -1469,7 +1509,7 @@
         "lc-straight": 54,
         "lc-round": 20,
         "lc-diagonal": 9,
-        "lc-open": -18,
+        "lc-open": -20,
         "uc-straight": 62,
         "uc-round": -4,
         "uc-diagonal": 17,

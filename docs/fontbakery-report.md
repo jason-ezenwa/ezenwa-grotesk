@@ -101,8 +101,6 @@ fontbakery version: 1.1.0
 
 - Glyph name: Eth	Contours detected: 3	Expected: 2
 
-- Glyph name: aogonek	Contours detected: 3	Expected: 2
-
 - Glyph name: Dcroat	Contours detected: 3	Expected: 2
 
 - Glyph name: dcroat	Contours detected: 3	Expected: 2
@@ -115,7 +113,9 @@ fontbakery version: 1.1.0
 
 - Glyph name: lslash	Contours detected: 2	Expected: 1
 
-- 56 more.
+- Glyph name: Tbar	Contours detected: 2	Expected: 1
+
+- 54 more.
 </code></pre>
 <p>Use -F or --full-lists to disable shortening of long lists.</p>
  [code: contour-count]
@@ -292,8 +292,6 @@ orthogonal</p>
 
 - Glyph name: Eth	Contours detected: 3	Expected: 2
 
-- Glyph name: aogonek	Contours detected: 3	Expected: 2
-
 - Glyph name: Dcroat	Contours detected: 3	Expected: 2
 
 - Glyph name: dcroat	Contours detected: 3	Expected: 2
@@ -306,7 +304,9 @@ orthogonal</p>
 
 - Glyph name: lslash	Contours detected: 2	Expected: 1
 
-- 56 more.
+- Glyph name: Tbar	Contours detected: 2	Expected: 1
+
+- 54 more.
 </code></pre>
 <p>Use -F or --full-lists to disable shortening of long lists.</p>
  [code: contour-count]
@@ -483,8 +483,6 @@ orthogonal</p>
 
 - Glyph name: Eth	Contours detected: 3	Expected: 2
 
-- Glyph name: aogonek	Contours detected: 3	Expected: 2
-
 - Glyph name: Dcroat	Contours detected: 3	Expected: 2
 
 - Glyph name: dcroat	Contours detected: 3	Expected: 2
@@ -497,7 +495,9 @@ orthogonal</p>
 
 - Glyph name: lslash	Contours detected: 2	Expected: 1
 
-- 56 more.
+- Glyph name: Tbar	Contours detected: 2	Expected: 1
+
+- 54 more.
 </code></pre>
 <p>Use -F or --full-lists to disable shortening of long lists.</p>
  [code: contour-count]
@@ -674,8 +674,6 @@ orthogonal</p>
 
 - Glyph name: Eth	Contours detected: 3	Expected: 2
 
-- Glyph name: aogonek	Contours detected: 3	Expected: 2
-
 - Glyph name: Dcroat	Contours detected: 3	Expected: 2
 
 - Glyph name: dcroat	Contours detected: 3	Expected: 2
@@ -688,7 +686,9 @@ orthogonal</p>
 
 - Glyph name: lslash	Contours detected: 2	Expected: 1
 
-- 56 more.
+- Glyph name: Tbar	Contours detected: 2	Expected: 1
+
+- 54 more.
 </code></pre>
 <p>Use -F or --full-lists to disable shortening of long lists.</p>
  [code: contour-count]
@@ -865,8 +865,6 @@ orthogonal</p>
 
 - Glyph name: Eth	Contours detected: 3	Expected: 2
 
-- Glyph name: aogonek	Contours detected: 3	Expected: 2
-
 - Glyph name: Dcroat	Contours detected: 3	Expected: 2
 
 - Glyph name: dcroat	Contours detected: 3	Expected: 2
@@ -879,7 +877,9 @@ orthogonal</p>
 
 - Glyph name: lslash	Contours detected: 2	Expected: 1
 
-- 56 more.
+- Glyph name: Tbar	Contours detected: 2	Expected: 1
+
+- 54 more.
 </code></pre>
 <p>Use -F or --full-lists to disable shortening of long lists.</p>
  [code: contour-count]
@@ -1089,8 +1089,6 @@ orthogonal</p>
 
 - Glyph name: Eth	Contours detected: 3	Expected: 2
 
-- Glyph name: aogonek	Contours detected: 3	Expected: 2
-
 - Glyph name: Dcroat	Contours detected: 3	Expected: 2
 
 - Glyph name: dcroat	Contours detected: 3	Expected: 2
@@ -1103,7 +1101,9 @@ orthogonal</p>
 
 - Glyph name: lslash	Contours detected: 2	Expected: 1
 
-- 56 more.
+- Glyph name: Tbar	Contours detected: 2	Expected: 1
+
+- 54 more.
 </code></pre>
 <p>Use -F or --full-lists to disable shortening of long lists.</p>
  [code: contour-count]
@@ -1280,8 +1280,6 @@ orthogonal</p>
 
 - Glyph name: Eth	Contours detected: 3	Expected: 2
 
-- Glyph name: aogonek	Contours detected: 3	Expected: 2
-
 - Glyph name: Dcroat	Contours detected: 3	Expected: 2
 
 - Glyph name: dcroat	Contours detected: 3	Expected: 2
@@ -1294,7 +1292,9 @@ orthogonal</p>
 
 - Glyph name: lslash	Contours detected: 2	Expected: 1
 
-- 56 more.
+- Glyph name: Tbar	Contours detected: 2	Expected: 1
+
+- 54 more.
 </code></pre>
 <p>Use -F or --full-lists to disable shortening of long lists.</p>
  [code: contour-count]
@@ -1471,8 +1471,6 @@ orthogonal</p>
 
 - Glyph name: Eth	Contours detected: 3	Expected: 2
 
-- Glyph name: aogonek	Contours detected: 3	Expected: 2
-
 - Glyph name: Dcroat	Contours detected: 3	Expected: 2
 
 - Glyph name: dcroat	Contours detected: 3	Expected: 2
@@ -1485,7 +1483,9 @@ orthogonal</p>
 
 - Glyph name: lslash	Contours detected: 2	Expected: 1
 
-- 56 more.
+- Glyph name: Tbar	Contours detected: 2	Expected: 1
+
+- 54 more.
 </code></pre>
 <p>Use -F or --full-lists to disable shortening of long lists.</p>
  [code: contour-count]
@@ -1662,8 +1662,6 @@ orthogonal</p>
 
 - Glyph name: Eth	Contours detected: 3	Expected: 2
 
-- Glyph name: aogonek	Contours detected: 3	Expected: 2
-
 - Glyph name: Dcroat	Contours detected: 3	Expected: 2
 
 - Glyph name: dcroat	Contours detected: 3	Expected: 2
@@ -1676,7 +1674,9 @@ orthogonal</p>
 
 - Glyph name: lslash	Contours detected: 2	Expected: 1
 
-- 56 more.
+- Glyph name: Tbar	Contours detected: 2	Expected: 1
+
+- 54 more.
 </code></pre>
 <p>Use -F or --full-lists to disable shortening of long lists.</p>
  [code: contour-count]
@@ -1853,8 +1853,6 @@ orthogonal</p>
 
 - Glyph name: Eth	Contours detected: 3	Expected: 2
 
-- Glyph name: aogonek	Contours detected: 3	Expected: 2
-
 - Glyph name: Dcroat	Contours detected: 3	Expected: 2
 
 - Glyph name: dcroat	Contours detected: 3	Expected: 2
@@ -1867,7 +1865,9 @@ orthogonal</p>
 
 - Glyph name: lslash	Contours detected: 2	Expected: 1
 
-- 56 more.
+- Glyph name: Tbar	Contours detected: 2	Expected: 1
+
+- 54 more.
 </code></pre>
 <p>Use -F or --full-lists to disable shortening of long lists.</p>
  [code: contour-count]

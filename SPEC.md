@@ -20,6 +20,7 @@ Values in a 1000-unit em.
 | Cap height | 640 |
 | x-height | 470 (47% of the em; 0.73 of cap height) |
 | Ascender | 640 (flush with cap height) |
+| f top | 665 (the hook rises above the ascender) |
 | Descender | −170 |
 | Overshoot | about 12 |
 | Mean lowercase advance (Regular) | about 467 |
