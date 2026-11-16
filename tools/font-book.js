@@ -28,7 +28,7 @@ for (const [style, weight] of styles) {
   <p style="font-weight:${weight};font-size:17px;line-height:1.5;max-width:640px;margin-top:28px">Good interfaces get out of the way. Labels stay readable at small sizes, numbers line up in tables, and headings keep their character when they grow. The quick brown fox jumps over the lazy dog. 24 projects, ₦1,250,000 budget, 3 days left.</p>`);
 }
 body += page(`<div class=lab>Sizes · Regular and Medium</div>` + [12, 14, 16, 20, 28, 40, 64].map((px) =>
-  `<div style="font-size:${px}px;line-height:1.35"><span style="font:11px monospace;color:#888;display:inline-block;width:40px">${px}</span>This is due in <b style="font-weight:500">3 days</b>.</div>`).join(''));
+  `<div style="font-size:${px}px;line-height:1.35"><span style="font:11px monospace;color:#888;display:inline-block;width:40px">${px}</span>This is due in <b style="font-weight:500">3 days</b>. Keep going.</div>`).join(''));
 
 const html = `<style>${css} body{margin:0;font-family:Ezenwa;color:#0d1233} section{width:1200px;height:800px;box-sizing:border-box;padding:64px 72px;page-break-after:always;overflow:hidden} .lab{font:13px monospace;color:#888;margin-bottom:20px} .cover{display:flex;flex-direction:column;justify-content:flex-end;height:100%} .cover div{font-size:150px;font-weight:500;letter-spacing:-0.03em;line-height:1} .cover p{font-size:18px;color:#555}</style>${body}`;
 
