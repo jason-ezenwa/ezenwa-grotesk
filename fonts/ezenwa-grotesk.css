@@ -1,0 +1,70 @@
+@font-face {
+  font-family: 'Ezenwa Grotesk';
+  src: url('./EzenwaGrotesk-Light.woff2') format('woff2');
+  font-weight: 300;
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: 'Ezenwa Grotesk';
+  src: url('./EzenwaGrotesk-LightItalic.woff2') format('woff2');
+  font-weight: 300;
+  font-style: italic;
+  font-display: swap;
+}
+@font-face {
+  font-family: 'Ezenwa Grotesk';
+  src: url('./EzenwaGrotesk-Regular.woff2') format('woff2');
+  font-weight: 400;
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: 'Ezenwa Grotesk';
+  src: url('./EzenwaGrotesk-Italic.woff2') format('woff2');
+  font-weight: 400;
+  font-style: italic;
+  font-display: swap;
+}
+@font-face {
+  font-family: 'Ezenwa Grotesk';
+  src: url('./EzenwaGrotesk-Medium.woff2') format('woff2');
+  font-weight: 500;
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: 'Ezenwa Grotesk';
+  src: url('./EzenwaGrotesk-MediumItalic.woff2') format('woff2');
+  font-weight: 500;
+  font-style: italic;
+  font-display: swap;
+}
+@font-face {
+  font-family: 'Ezenwa Grotesk';
+  src: url('./EzenwaGrotesk-Semibold.woff2') format('woff2');
+  font-weight: 600;
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: 'Ezenwa Grotesk';
+  src: url('./EzenwaGrotesk-SemiboldItalic.woff2') format('woff2');
+  font-weight: 600;
+  font-style: italic;
+  font-display: swap;
+}
+@font-face {
+  font-family: 'Ezenwa Grotesk';
+  src: url('./EzenwaGrotesk-Bold.woff2') format('woff2');
+  font-weight: 700;
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: 'Ezenwa Grotesk';
+  src: url('./EzenwaGrotesk-BoldItalic.woff2') format('woff2');
+  font-weight: 700;
+  font-style: italic;
+  font-display: swap;
+}

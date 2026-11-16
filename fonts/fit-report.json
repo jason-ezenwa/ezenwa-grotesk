@@ -1,0 +1,1482 @@
+[
+  {
+    "style": "Light",
+    "italic": false,
+    "locs": {
+      "lc": [
+        255.9,
+        105.0
+      ],
+      "uc": [
+        237.9,
+        98.1
+      ],
+      "fig": [
+        226.2,
+        102.2
+      ]
+    },
+    "roundness": 0.9919,
+    "width": {
+      "lc-straight": 0.9901,
+      "lc-round": 0.9869,
+      "lc-diagonal": 0.9759,
+      "lc-open": 0.97,
+      "uc-straight": 1.0003,
+      "uc-round": 1.0086,
+      "uc-diagonal": 0.9899,
+      "uc-open": 1.03,
+      "figures": 1.0001
+    },
+    "space": {
+      "lc-straight": [
+        0.8569,
+        [
+          0,
+          0
+        ]
+      ],
+      "lc-round": [
+        0.8721,
+        [
+          0,
+          0
+        ]
+      ],
+      "lc-diagonal": [
+        0.8211,
+        [
+          0,
+          0
+        ]
+      ],
+      "lc-open": [
+        1,
+        [
+          -5.1,
+          35.9
+        ]
+      ],
+      "uc-straight": [
+        0.7627,
+        [
+          0,
+          0
+        ]
+      ],
+      "uc-round": [
+        0.6798,
+        [
+          0,
+          0
+        ]
+      ],
+      "uc-diagonal": [
+        1.2476,
+        [
+          0,
+          0
+        ]
+      ],
+      "uc-open": [
+        1.4012,
+        [
+          0,
+          0
+        ]
+      ],
+      "figures": [
+        0.7373,
+        [
+          0,
+          0
+        ]
+      ]
+    },
+    "open_gaps": {
+      "f": -43,
+      "t": 28
+    },
+    "check": {
+      "cap": [
+        640,
+        640
+      ],
+      "xh": [
+        467,
+        467
+      ],
+      "asc": [
+        640,
+        640
+      ],
+      "desc": [
+        -170,
+        -170
+      ],
+      "ink": [
+        0.356,
+        0.357
+      ],
+      "capstem": [
+        64,
+        65
+      ],
+      "width_delta_pct": {
+        "lc-straight": 0.1,
+        "lc-round": -0.0,
+        "lc-diagonal": -0.0,
+        "lc-open": 0.8,
+        "uc-straight": -0.0,
+        "uc-round": 0.1,
+        "uc-diagonal": -0.0,
+        "uc-open": -1.0,
+        "figures": -0.0
+      },
+      "space_delta_units": {
+        "lc-straight": 0,
+        "lc-round": 0,
+        "lc-diagonal": 0,
+        "lc-open": -7,
+        "uc-straight": 0,
+        "uc-round": 0,
+        "uc-diagonal": 0,
+        "uc-open": 0,
+        "figures": 0
+      }
+    },
+    "opened_pairs": 56
+  },
+  {
+    "style": "Light",
+    "italic": true,
+    "locs": {
+      "lc": [
+        255.9,
+        105.0
+      ],
+      "uc": [
+        237.9,
+        98.1
+      ],
+      "fig": [
+        226.2,
+        102.2
+      ]
+    },
+    "roundness": 0.9919,
+    "width": {
+      "lc-straight": 0.9901,
+      "lc-round": 0.9869,
+      "lc-diagonal": 0.9759,
+      "lc-open": 0.97,
+      "uc-straight": 1.0003,
+      "uc-round": 1.0086,
+      "uc-diagonal": 0.9899,
+      "uc-open": 1.03,
+      "figures": 1.0001
+    },
+    "space": {
+      "lc-straight": [
+        0.8569,
+        [
+          0,
+          0
+        ]
+      ],
+      "lc-round": [
+        0.8721,
+        [
+          0,
+          0
+        ]
+      ],
+      "lc-diagonal": [
+        0.8211,
+        [
+          0,
+          0
+        ]
+      ],
+      "lc-open": [
+        1,
+        [
+          -5.1,
+          35.9
+        ]
+      ],
+      "uc-straight": [
+        0.7627,
+        [
+          0,
+          0
+        ]
+      ],
+      "uc-round": [
+        0.6798,
+        [
+          0,
+          0
+        ]
+      ],
+      "uc-diagonal": [
+        1.2476,
+        [
+          0,
+          0
+        ]
+      ],
+      "uc-open": [
+        1.4012,
+        [
+          0,
+          0
+        ]
+      ],
+      "figures": [
+        0.7373,
+        [
+          0,
+          0
+        ]
+      ]
+    },
+    "open_gaps": {
+      "f": -23,
+      "t": 35
+    },
+    "check": {
+      "cap": [
+        640,
+        640
+      ],
+      "xh": [
+        467,
+        467
+      ],
+      "asc": [
+        640,
+        640
+      ],
+      "desc": [
+        -170,
+        -170
+      ],
+      "ink": [
+        0.346,
+        0.353
+      ],
+      "capstem": [
+        177,
+        225
+      ],
+      "width_delta_pct": {
+        "lc-straight": -6.8,
+        "lc-round": -3.5,
+        "lc-diagonal": -1.9,
+        "lc-open": 12.6,
+        "uc-straight": -5.8,
+        "uc-round": 2.2,
+        "uc-diagonal": -3.4,
+        "uc-open": -1.7,
+        "figures": -2.1
+      },
+      "space_delta_units": {
+        "lc-straight": 41,
+        "lc-round": 16,
+        "lc-diagonal": 18,
+        "lc-open": -35,
+        "uc-straight": 56,
+        "uc-round": -4,
+        "uc-diagonal": 15,
+        "uc-open": 0,
+        "figures": 19
+      }
+    },
+    "opened_pairs": 55
+  },
+  {
+    "style": "Regular",
+    "italic": false,
+    "locs": {
+      "lc": [
+        409.8,
+        104.5
+      ],
+      "uc": [
+        404.3,
+        99.2
+      ],
+      "fig": [
+        391.8,
+        103.3
+      ]
+    },
+    "roundness": 0.9936,
+    "width": {
+      "lc-straight": 1.0012,
+      "lc-round": 0.9851,
+      "lc-diagonal": 0.9735,
+      "lc-open": 0.99,
+      "uc-straight": 0.9975,
+      "uc-round": 1.0063,
+      "uc-diagonal": 0.991,
+      "uc-open": 1.03,
+      "figures": 1.0001
+    },
+    "space": {
+      "lc-straight": [
+        0.8301,
+        [
+          0,
+          0
+        ]
+      ],
+      "lc-round": [
+        0.8309,
+        [
+          0,
+          0
+        ]
+      ],
+      "lc-diagonal": [
+        0.8311,
+        [
+          0,
+          0
+        ]
+      ],
+      "lc-open": [
+        1,
+        [
+          -7.7,
+          28.9
+        ]
+      ],
+      "uc-straight": [
+        0.7642,
+        [
+          0,
+          0
+        ]
+      ],
+      "uc-round": [
+        0.6647,
+        [
+          0,
+          0
+        ]
+      ],
+      "uc-diagonal": [
+        1.15,
+        [
+          0,
+          0
+        ]
+      ],
+      "uc-open": [
+        1.1228,
+        [
+          0,
+          0
+        ]
+      ],
+      "figures": [
+        0.6564,
+        [
+          0,
+          0
+        ]
+      ]
+    },
+    "open_gaps": {
+      "f": -27,
+      "t": 22
+    },
+    "check": {
+      "cap": [
+        640,
+        640
+      ],
+      "xh": [
+        470,
+        470
+      ],
+      "asc": [
+        640,
+        640
+      ],
+      "desc": [
+        -170,
+        -170
+      ],
+      "ink": [
+        0.454,
+        0.454
+      ],
+      "capstem": [
+        89,
+        89
+      ],
+      "width_delta_pct": {
+        "lc-straight": 0.0,
+        "lc-round": 0.1,
+        "lc-diagonal": -0.0,
+        "lc-open": -0.0,
+        "uc-straight": -0.0,
+        "uc-round": 0.0,
+        "uc-diagonal": -0.0,
+        "uc-open": -2.8,
+        "figures": -0.0
+      },
+      "space_delta_units": {
+        "lc-straight": 0,
+        "lc-round": 0,
+        "lc-diagonal": 0,
+        "lc-open": -3,
+        "uc-straight": 0,
+        "uc-round": 0,
+        "uc-diagonal": 0,
+        "uc-open": -1,
+        "figures": 0
+      }
+    },
+    "opened_pairs": 47
+  },
+  {
+    "style": "Regular",
+    "italic": true,
+    "locs": {
+      "lc": [
+        409.8,
+        104.5
+      ],
+      "uc": [
+        404.3,
+        99.2
+      ],
+      "fig": [
+        391.8,
+        103.3
+      ]
+    },
+    "roundness": 0.9936,
+    "width": {
+      "lc-straight": 1.0012,
+      "lc-round": 0.9851,
+      "lc-diagonal": 0.9735,
+      "lc-open": 0.99,
+      "uc-straight": 0.9975,
+      "uc-round": 1.0063,
+      "uc-diagonal": 0.991,
+      "uc-open": 1.03,
+      "figures": 1.0001
+    },
+    "space": {
+      "lc-straight": [
+        0.8301,
+        [
+          0,
+          0
+        ]
+      ],
+      "lc-round": [
+        0.8309,
+        [
+          0,
+          0
+        ]
+      ],
+      "lc-diagonal": [
+        0.8311,
+        [
+          0,
+          0
+        ]
+      ],
+      "lc-open": [
+        1,
+        [
+          -7.7,
+          28.9
+        ]
+      ],
+      "uc-straight": [
+        0.7642,
+        [
+          0,
+          0
+        ]
+      ],
+      "uc-round": [
+        0.6647,
+        [
+          0,
+          0
+        ]
+      ],
+      "uc-diagonal": [
+        1.15,
+        [
+          0,
+          0
+        ]
+      ],
+      "uc-open": [
+        1.1228,
+        [
+          0,
+          0
+        ]
+      ],
+      "figures": [
+        0.6564,
+        [
+          0,
+          0
+        ]
+      ]
+    },
+    "open_gaps": {
+      "f": -14,
+      "t": 31
+    },
+    "check": {
+      "cap": [
+        640,
+        640
+      ],
+      "xh": [
+        470,
+        470
+      ],
+      "asc": [
+        640,
+        640
+      ],
+      "desc": [
+        -170,
+        -170
+      ],
+      "ink": [
+        0.444,
+        0.449
+      ],
+      "capstem": [
+        201,
+        250
+      ],
+      "width_delta_pct": {
+        "lc-straight": -6.3,
+        "lc-round": -2.9,
+        "lc-diagonal": -1.8,
+        "lc-open": 12.2,
+        "uc-straight": -5.7,
+        "uc-round": 2.2,
+        "uc-diagonal": -3.0,
+        "uc-open": -3.5,
+        "figures": -1.9
+      },
+      "space_delta_units": {
+        "lc-straight": 43,
+        "lc-round": 15,
+        "lc-diagonal": 18,
+        "lc-open": -37,
+        "uc-straight": 56,
+        "uc-round": -5,
+        "uc-diagonal": 15,
+        "uc-open": 3,
+        "figures": 21
+      }
+    },
+    "opened_pairs": 42
+  },
+  {
+    "style": "Medium",
+    "italic": false,
+    "locs": {
+      "lc": [
+        642.6,
+        103.5
+      ],
+      "uc": [
+        637.9,
+        100.3
+      ],
+      "fig": [
+        621.5,
+        104.2
+      ]
+    },
+    "roundness": 0.9983,
+    "width": {
+      "lc-straight": 1.0205,
+      "lc-round": 0.9803,
+      "lc-diagonal": 0.97,
+      "lc-open": 1.0133,
+      "uc-straight": 0.9937,
+      "uc-round": 1.0024,
+      "uc-diagonal": 0.9986,
+      "uc-open": 1.03,
+      "figures": 1.0005
+    },
+    "space": {
+      "lc-straight": [
+        0.7655,
+        [
+          0,
+          0
+        ]
+      ],
+      "lc-round": [
+        0.7493,
+        [
+          0,
+          0
+        ]
+      ],
+      "lc-diagonal": [
+        0.8837,
+        [
+          0,
+          0
+        ]
+      ],
+      "lc-open": [
+        1,
+        [
+          -10.4,
+          20.4
+        ]
+      ],
+      "uc-straight": [
+        0.7547,
+        [
+          0,
+          0
+        ]
+      ],
+      "uc-round": [
+        0.6506,
+        [
+          0,
+          0
+        ]
+      ],
+      "uc-diagonal": [
+        0.8386,
+        [
+          0,
+          0
+        ]
+      ],
+      "uc-open": [
+        0.9537,
+        [
+          0,
+          0
+        ]
+      ],
+      "figures": [
+        0.5537,
+        [
+          0,
+          0
+        ]
+      ]
+    },
+    "open_gaps": {
+      "f": -10,
+      "t": 21
+    },
+    "check": {
+      "cap": [
+        640,
+        640
+      ],
+      "xh": [
+        474,
+        474
+      ],
+      "asc": [
+        640,
+        640
+      ],
+      "desc": [
+        -170,
+        -170
+      ],
+      "ink": [
+        0.589,
+        0.595
+      ],
+      "capstem": [
+        128,
+        128
+      ],
+      "width_delta_pct": {
+        "lc-straight": 0.1,
+        "lc-round": 0.0,
+        "lc-diagonal": 0.2,
+        "lc-open": 0.1,
+        "uc-straight": -0.1,
+        "uc-round": 0.1,
+        "uc-diagonal": -0.0,
+        "uc-open": -4.5,
+        "figures": -0.0
+      },
+      "space_delta_units": {
+        "lc-straight": 0,
+        "lc-round": 0,
+        "lc-diagonal": 0,
+        "lc-open": 6,
+        "uc-straight": 0,
+        "uc-round": -1,
+        "uc-diagonal": 0,
+        "uc-open": 0,
+        "figures": 0
+      }
+    },
+    "opened_pairs": 47
+  },
+  {
+    "style": "Medium",
+    "italic": true,
+    "locs": {
+      "lc": [
+        642.6,
+        103.5
+      ],
+      "uc": [
+        637.9,
+        100.3
+      ],
+      "fig": [
+        621.5,
+        104.2
+      ]
+    },
+    "roundness": 0.9983,
+    "width": {
+      "lc-straight": 1.0205,
+      "lc-round": 0.9803,
+      "lc-diagonal": 0.97,
+      "lc-open": 1.0133,
+      "uc-straight": 0.9937,
+      "uc-round": 1.0024,
+      "uc-diagonal": 0.9986,
+      "uc-open": 1.03,
+      "figures": 1.0005
+    },
+    "space": {
+      "lc-straight": [
+        0.7655,
+        [
+          0,
+          0
+        ]
+      ],
+      "lc-round": [
+        0.7493,
+        [
+          0,
+          0
+        ]
+      ],
+      "lc-diagonal": [
+        0.8837,
+        [
+          0,
+          0
+        ]
+      ],
+      "lc-open": [
+        1,
+        [
+          -10.4,
+          20.4
+        ]
+      ],
+      "uc-straight": [
+        0.7547,
+        [
+          0,
+          0
+        ]
+      ],
+      "uc-round": [
+        0.6506,
+        [
+          0,
+          0
+        ]
+      ],
+      "uc-diagonal": [
+        0.8386,
+        [
+          0,
+          0
+        ]
+      ],
+      "uc-open": [
+        0.9537,
+        [
+          0,
+          0
+        ]
+      ],
+      "figures": [
+        0.5537,
+        [
+          0,
+          0
+        ]
+      ]
+    },
+    "open_gaps": {
+      "f": 8,
+      "t": 33
+    },
+    "check": {
+      "cap": [
+        640,
+        640
+      ],
+      "xh": [
+        474,
+        474
+      ],
+      "asc": [
+        640,
+        640
+      ],
+      "desc": [
+        -170,
+        -170
+      ],
+      "ink": [
+        0.576,
+        0.589
+      ],
+      "capstem": [
+        239,
+        289
+      ],
+      "width_delta_pct": {
+        "lc-straight": -5.5,
+        "lc-round": -2.3,
+        "lc-diagonal": -1.5,
+        "lc-open": 11.2,
+        "uc-straight": -5.4,
+        "uc-round": 2.1,
+        "uc-diagonal": -2.3,
+        "uc-open": -5.5,
+        "figures": -1.8
+      },
+      "space_delta_units": {
+        "lc-straight": 48,
+        "lc-round": 17,
+        "lc-diagonal": 16,
+        "lc-open": -23,
+        "uc-straight": 56,
+        "uc-round": -5,
+        "uc-diagonal": 21,
+        "uc-open": 8,
+        "figures": 24
+      }
+    },
+    "opened_pairs": 29
+  },
+  {
+    "style": "Semibold",
+    "italic": false,
+    "locs": {
+      "lc": [
+        776.2,
+        100.9
+      ],
+      "uc": [
+        758.2,
+        99.0
+      ],
+      "fig": [
+        753.5,
+        101.3
+      ]
+    },
+    "roundness": 1.0,
+    "width": {
+      "lc-straight": 1.0255,
+      "lc-round": 0.9798,
+      "lc-diagonal": 0.97,
+      "lc-open": 0.9852,
+      "uc-straight": 0.9899,
+      "uc-round": 1.0051,
+      "uc-diagonal": 1.0056,
+      "uc-open": 1.03,
+      "figures": 0.9994
+    },
+    "space": {
+      "lc-straight": [
+        0.7123,
+        [
+          0,
+          0
+        ]
+      ],
+      "lc-round": [
+        0.6988,
+        [
+          0,
+          0
+        ]
+      ],
+      "lc-diagonal": [
+        1,
+        [
+          -2.2,
+          -3.5
+        ]
+      ],
+      "lc-open": [
+        1,
+        [
+          -14.0,
+          23.9
+        ]
+      ],
+      "uc-straight": [
+        0.7214,
+        [
+          0,
+          0
+        ]
+      ],
+      "uc-round": [
+        0.5941,
+        [
+          0,
+          0
+        ]
+      ],
+      "uc-diagonal": [
+        1,
+        [
+          -3.2,
+          -4.9
+        ]
+      ],
+      "uc-open": [
+        1.06,
+        [
+          0,
+          0
+        ]
+      ],
+      "figures": [
+        0.5228,
+        [
+          0,
+          0
+        ]
+      ]
+    },
+    "open_gaps": {
+      "f": -13,
+      "t": 37
+    },
+    "check": {
+      "cap": [
+        641,
+        640
+      ],
+      "xh": [
+        478,
+        478
+      ],
+      "asc": [
+        640,
+        640
+      ],
+      "desc": [
+        -170,
+        -170
+      ],
+      "ink": [
+        0.655,
+        0.673
+      ],
+      "capstem": [
+        155,
+        156
+      ],
+      "width_delta_pct": {
+        "lc-straight": -0.2,
+        "lc-round": 0.0,
+        "lc-diagonal": 0.2,
+        "lc-open": -0.1,
+        "uc-straight": 0.0,
+        "uc-round": 0.1,
+        "uc-diagonal": 0.0,
+        "uc-open": -3.1,
+        "figures": 0.1
+      },
+      "space_delta_units": {
+        "lc-straight": 0,
+        "lc-round": 0,
+        "lc-diagonal": 0,
+        "lc-open": 12,
+        "uc-straight": 0,
+        "uc-round": 0,
+        "uc-diagonal": 0,
+        "uc-open": -1,
+        "figures": 0
+      }
+    },
+    "opened_pairs": 64
+  },
+  {
+    "style": "Semibold",
+    "italic": true,
+    "locs": {
+      "lc": [
+        776.2,
+        100.9
+      ],
+      "uc": [
+        758.2,
+        99.0
+      ],
+      "fig": [
+        753.5,
+        101.3
+      ]
+    },
+    "roundness": 1.0,
+    "width": {
+      "lc-straight": 1.0255,
+      "lc-round": 0.9798,
+      "lc-diagonal": 0.97,
+      "lc-open": 0.9852,
+      "uc-straight": 0.9899,
+      "uc-round": 1.0051,
+      "uc-diagonal": 1.0056,
+      "uc-open": 1.03,
+      "figures": 0.9994
+    },
+    "space": {
+      "lc-straight": [
+        0.7123,
+        [
+          0,
+          0
+        ]
+      ],
+      "lc-round": [
+        0.6988,
+        [
+          0,
+          0
+        ]
+      ],
+      "lc-diagonal": [
+        1,
+        [
+          -2.2,
+          -3.5
+        ]
+      ],
+      "lc-open": [
+        1,
+        [
+          -14.0,
+          23.9
+        ]
+      ],
+      "uc-straight": [
+        0.7214,
+        [
+          0,
+          0
+        ]
+      ],
+      "uc-round": [
+        0.5941,
+        [
+          0,
+          0
+        ]
+      ],
+      "uc-diagonal": [
+        1,
+        [
+          -3.2,
+          -4.9
+        ]
+      ],
+      "uc-open": [
+        1.06,
+        [
+          0,
+          0
+        ]
+      ],
+      "figures": [
+        0.5228,
+        [
+          0,
+          0
+        ]
+      ]
+    },
+    "open_gaps": {
+      "f": 5,
+      "t": 40
+    },
+    "check": {
+      "cap": [
+        641,
+        640
+      ],
+      "xh": [
+        478,
+        478
+      ],
+      "asc": [
+        640,
+        640
+      ],
+      "desc": [
+        -170,
+        -170
+      ],
+      "ink": [
+        0.642,
+        0.668
+      ],
+      "capstem": [
+        266,
+        317
+      ],
+      "width_delta_pct": {
+        "lc-straight": -5.1,
+        "lc-round": -2.3,
+        "lc-diagonal": -1.2,
+        "lc-open": 9.4,
+        "uc-straight": -5.4,
+        "uc-round": 2.0,
+        "uc-diagonal": -2.2,
+        "uc-open": -4.2,
+        "figures": -1.8
+      },
+      "space_delta_units": {
+        "lc-straight": 51,
+        "lc-round": 19,
+        "lc-diagonal": 9,
+        "lc-open": -17,
+        "uc-straight": 59,
+        "uc-round": -4,
+        "uc-diagonal": 16,
+        "uc-open": 7,
+        "figures": 26
+      }
+    },
+    "opened_pairs": 41
+  },
+  {
+    "style": "Bold",
+    "italic": false,
+    "locs": {
+      "lc": [
+        844.1,
+        98.5
+      ],
+      "uc": [
+        820.7,
+        98.1
+      ],
+      "fig": [
+        822.3,
+        98.5
+      ]
+    },
+    "roundness": 1.0,
+    "width": {
+      "lc-straight": 1.0275,
+      "lc-round": 0.9804,
+      "lc-diagonal": 0.97,
+      "lc-open": 0.97,
+      "uc-straight": 0.9878,
+      "uc-round": 1.0072,
+      "uc-diagonal": 1.0107,
+      "uc-open": 1.03,
+      "figures": 0.9989
+    },
+    "space": {
+      "lc-straight": [
+        0.6942,
+        [
+          0,
+          0
+        ]
+      ],
+      "lc-round": [
+        0.6668,
+        [
+          0,
+          0
+        ]
+      ],
+      "lc-diagonal": [
+        1,
+        [
+          -2.8,
+          -3.6
+        ]
+      ],
+      "lc-open": [
+        1,
+        [
+          -15.5,
+          35.9
+        ]
+      ],
+      "uc-straight": [
+        0.6894,
+        [
+          0,
+          0
+        ]
+      ],
+      "uc-round": [
+        0.5509,
+        [
+          0,
+          0
+        ]
+      ],
+      "uc-diagonal": [
+        1,
+        [
+          -5.4,
+          -6.4
+        ]
+      ],
+      "uc-open": [
+        1.0366,
+        [
+          0,
+          0
+        ]
+      ],
+      "figures": [
+        0.5039,
+        [
+          0,
+          0
+        ]
+      ]
+    },
+    "open_gaps": {
+      "f": -23,
+      "t": 35
+    },
+    "check": {
+      "cap": [
+        641,
+        640
+      ],
+      "xh": [
+        480,
+        480
+      ],
+      "asc": [
+        640,
+        640
+      ],
+      "desc": [
+        -170,
+        -170
+      ],
+      "ink": [
+        0.7,
+        0.723
+      ],
+      "capstem": [
+        172,
+        174
+      ],
+      "width_delta_pct": {
+        "lc-straight": -0.0,
+        "lc-round": 0.0,
+        "lc-diagonal": 0.2,
+        "lc-open": 3.4,
+        "uc-straight": 0.0,
+        "uc-round": 0.0,
+        "uc-diagonal": -0.0,
+        "uc-open": -2.4,
+        "figures": -0.1
+      },
+      "space_delta_units": {
+        "lc-straight": 0,
+        "lc-round": 0,
+        "lc-diagonal": -1,
+        "lc-open": 6,
+        "uc-straight": 0,
+        "uc-round": 0,
+        "uc-diagonal": 1,
+        "uc-open": 0,
+        "figures": 0
+      }
+    },
+    "opened_pairs": 80
+  },
+  {
+    "style": "Bold",
+    "italic": true,
+    "locs": {
+      "lc": [
+        844.1,
+        98.5
+      ],
+      "uc": [
+        820.7,
+        98.1
+      ],
+      "fig": [
+        822.3,
+        98.5
+      ]
+    },
+    "roundness": 1.0,
+    "width": {
+      "lc-straight": 1.0275,
+      "lc-round": 0.9804,
+      "lc-diagonal": 0.97,
+      "lc-open": 0.97,
+      "uc-straight": 0.9878,
+      "uc-round": 1.0072,
+      "uc-diagonal": 1.0107,
+      "uc-open": 1.03,
+      "figures": 0.9989
+    },
+    "space": {
+      "lc-straight": [
+        0.6942,
+        [
+          0,
+          0
+        ]
+      ],
+      "lc-round": [
+        0.6668,
+        [
+          0,
+          0
+        ]
+      ],
+      "lc-diagonal": [
+        1,
+        [
+          -2.8,
+          -3.6
+        ]
+      ],
+      "lc-open": [
+        1,
+        [
+          -15.5,
+          35.9
+        ]
+      ],
+      "uc-straight": [
+        0.6894,
+        [
+          0,
+          0
+        ]
+      ],
+      "uc-round": [
+        0.5509,
+        [
+          0,
+          0
+        ]
+      ],
+      "uc-diagonal": [
+        1,
+        [
+          -5.4,
+          -6.4
+        ]
+      ],
+      "uc-open": [
+        1.0366,
+        [
+          0,
+          0
+        ]
+      ],
+      "figures": [
+        0.5039,
+        [
+          0,
+          0
+        ]
+      ]
+    },
+    "open_gaps": {
+      "f": -1,
+      "t": 40
+    },
+    "check": {
+      "cap": [
+        641,
+        640
+      ],
+      "xh": [
+        480,
+        480
+      ],
+      "asc": [
+        640,
+        640
+      ],
+      "desc": [
+        -170,
+        -170
+      ],
+      "ink": [
+        0.685,
+        0.717
+      ],
+      "capstem": [
+        283,
+        335
+      ],
+      "width_delta_pct": {
+        "lc-straight": -4.9,
+        "lc-round": -2.3,
+        "lc-diagonal": -1.1,
+        "lc-open": 11.7,
+        "uc-straight": -5.3,
+        "uc-round": 2.0,
+        "uc-diagonal": -2.1,
+        "uc-open": -3.7,
+        "figures": -1.9
+      },
+      "space_delta_units": {
+        "lc-straight": 54,
+        "lc-round": 20,
+        "lc-diagonal": 9,
+        "lc-open": -18,
+        "uc-straight": 62,
+        "uc-round": -4,
+        "uc-diagonal": 17,
+        "uc-open": 9,
+        "figures": 27
+      }
+    },
+    "opened_pairs": 58
+  }
+]

@@ -1,0 +1,30 @@
+FONTLOG for Ezenwa Grotesk
+
+Ezenwa Grotesk is a modified version of Archivo, released under the SIL Open
+Font License 1.1 (see OFL.txt). Archivo declares no Reserved Font Name, and
+the modified font does not use the Archivo name.
+
+Base: Archivo variable fonts (roman and italic, wght 100-900, wdth 62-125)
+from https://github.com/google/fonts/tree/main/ofl/archivo
+
+Changes, all made by fit.py:
+- Light, Regular, Medium, Semibold and Bold, each with an italic. Lowercase,
+  capitals and figures each come from the axis location whose stem weight
+  and mean width match the targets in SPEC.md.
+- Cap height 640 and ascender 640 in a 1000-unit em; x-height 470 at Regular
+  and descender -170.
+- Curves made slightly rounder throughout.
+- f hook and t foot rebuilt as arcs cut from the o, with their counters kept
+  open at heavy weights, and the t's crossbar lengthened to meet its foot;
+  their accented forms follow, and the f ligatures are no longer substituted.
+- Widths adjusted per letter class, by at most 3%; spacing adjusted per
+  class, with f and t spaced to match n, and kerning added for any common
+  pair that touched.
+- Figure variants share the figures' weight and width; math signs share the
+  tabular width.
+- Line metrics, style table, version and Windows bounds set so fontbakery
+  reports no failures.
+
+No outlines, kerning or per-glyph widths were copied from any other font.
+Only aggregate measurements were used as targets: heights, stem weight, and
+class mean widths and spacing.
