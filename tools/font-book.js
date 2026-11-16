@@ -39,7 +39,18 @@ const html = `<style>${css} body{margin:0;font-family:Ezenwa;color:#0d1233} sect
   const tab = await browser.newPage({ viewport: { width: 1200, height: 800 }, deviceScaleFactor: 2 });
   await tab.setContent(html);
   await tab.evaluate(() => document.fonts.ready);
-  await tab.pdf({ path: path.join(outDir, 'font-book.pdf'), width: '1200px', height: '800px', printBackground: true });
+  // Chromium prints one CSS pixel as 0.75pt, and PDF viewers at 100% zoom
+  // show one point as one screen pixel, so an unscaled PDF shows every size
+  // at 75%: "14px" would read as 10.5px. Printing at 4/3 makes one CSS pixel
+  // one point, so the sizes in the book match a browser at 100%.
+  const scale = 4 / 3;
+  await tab.pdf({
+    path: path.join(outDir, 'font-book.pdf'),
+    width: `${1200 * scale}px`,
+    height: `${Math.ceil(800 * scale)}px`,
+    scale,
+    printBackground: true,
+  });
   const sections = await tab.$$('section');
   for (let i = 0; i < sections.length; i++) {
     await sections[i].screenshot({ path: path.join(outDir, `font-book-${i + 1}.png`) });
